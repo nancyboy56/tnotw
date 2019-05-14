@@ -1,10 +1,13 @@
 
-#include <Character.h>
+#include "Character.h"
 
 using std::string;
 
 Character::Character(string name) {
-this->protectedVariable = value;
+
+
+
+
 }
 //
 //

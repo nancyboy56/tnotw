@@ -15,13 +15,13 @@ protected:
 
 private:
   //money, lute skill, rank, charisma, appearance, energy,
-  Money money;
+  Money* money;
   string name;
-  Skill luteSkill;
+  Skill* luteSkill;
   string rank;
-  Skill charisma;
-  Skill appearance;
-  Skill energy;
+  Skill* charisma;
+  Skill* appearance;
+  Skill* energy;
    // void privateMethod(int* ptr, double& ref);
 
 };
